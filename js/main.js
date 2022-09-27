@@ -16,7 +16,7 @@ let addTask = () => {
             <input type="checkbox" name="input-task">
             ${newValue}
             </label>
-            <img src="delete.svg" class="delete-icon">
+            <img src="./image/delete.svg" class="delete-icon">
     </div>`;
     input.value = "";
     updateStats();
